@@ -5,7 +5,7 @@ class Student():
     self.gpa = gpa #instance variable (attribute)
     self.year = year #instance variable (attribute)
     
-  def greet():
+  def greet(self):
     print("Hello ", self.name, "!")
     print("Welcome to Python University")
     print("While at PU, you will be a full-time", self.major, "major!")
@@ -17,6 +17,7 @@ print(student1.name) #prints the name of the object
 print(student1.major) #prints the major of the object
 print(student1.gpa) #prints the gpa of the object
 print(student1.year) #prints the year of the object
+student1.greet() #calls the greet method
 student2 = Student("Jane", "Math", 3.5, 2020) #instantiate a new object of the class Student with the required arguments  
 student3 = Student("Jack", "Physics", 3.7, 2021) #instantiate a new object of the class Student with the required arguments  
 student4 = Student("Jill", "Biology", 3.8, 2022) #instantiate a new object of the class Student with the required arguments  
