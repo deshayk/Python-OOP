@@ -1,4 +1,4 @@
-# Python Programming Fundamentals
+# Python Programming Fundamentals: Mastering Python
 # Overview
 Python Programming Fundamentals - Mastering Python is a beginner-friendly series that aims to breakdown the fundamental concepts needed to make anyone interested become a great Python developer.
 
